@@ -1,0 +1,52 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\pdfoutput=1
+
+\moderncvstyle{classic}
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage[scale=0.75]{geometry}
+
+\firstname{Andrew} % Your first name
+\familyname{Hickman} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{124 Lenton Boulevard}{Nottingham}{NG7 2BZ}
+\mobile{+44 7453 962930}
+\email{andrew.hickman1@sky.com}
+\homepage{uk.linkedin.com/in/hickmanandrew}{}
+
+\begin{document}
+\makecvtitle
+\section{Profile}
+\cvitem{}{Second year student of Mathematics at Nottingham University. Hard-working and efficient with experience working in a team environment and flexible in terms of hours of work.}
+
+\section{Education}
+\cventry{2014--Present}{Nottingham University}{}{}{Working towards Mathematics BSc (Hons)}{}
+\cventry{2007--2014}{Wallington County Grammar School}{}{}{}{}
+\cvitem{A-Levels}{Mathematics (A*), Further Mathematics (B), Physics (B) and Chemistry (C)}
+\cvitem{GCSEs}{11 Subjects A--C including Maths and English.}
+
+\section{Experience}
+\cventry{Summer 2015}{Core Croydon}{Weekly volunteering in accounts department}{}{}{Responsibilities included:}{}
+\cvlistitem{Dealing with the accounts of a small charity.}
+\cvlistitem{Preparing paperwork for auditing.}
+\cvlistitem{Working in a busy office environment.}
+
+\cventry{September 2015}{EVO Energy}{Project dealing with a batch of faulty components}{}{}{Responsibilities included:}{}
+\cvlistitem{Maintaining a large spreadsheet}
+\cvlistitem{Manipulating large amounts of data.}
+\cvlistitem{Tracking down a large number of customers and putting together a plan on how best to contact them.}
+
+\section{Skills}
+\cvlistitem{Proficient with Python and Matlab. Currently self-teaching C}
+\cvlistitem{Adept with Windows and Linux}
+\cvlistitem{Experienced in Microsoft Office applications including Excel}
+\cvlistitem{Experienced in use of \LaTeX typesetting software}
+
+\section{References}
+\cvitem{}{References available on request}
+
+
+\end{document}
+
